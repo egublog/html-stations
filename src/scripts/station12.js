@@ -2,4 +2,6 @@ function getData() {
     return "Station12をクリア!"
 }
 
-export {getData};
+export default function() {
+    getData();
+}
