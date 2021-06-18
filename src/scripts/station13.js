@@ -1,5 +1,6 @@
 function getData() {
-    return arrowFunction()
+    // Arrowという文字列を返す処理をアロー関数を入れて書きましょう。
+    const arrow = () => {return 'Arrow'};
+    
+    return arrow();
 }
-
-// Arrowという文字列を返すarrowFunctionという名前のアロー関数を追加してください
